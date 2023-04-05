@@ -2,6 +2,8 @@
 Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
 """
 
+"""OJO:ME FALTA SEPARARLOS POR ,"""
+
 numero = int(input("Escribe un numero entero positivo: "))
 
 numero = int(numero + 1)
