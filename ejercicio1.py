@@ -13,7 +13,7 @@ while contador <= 10:
 #EXPLICACION:
 # El usuario introduce la palabra.
 # Creamos un contador que comienza en 1.
-# En el ciclo: Mientras el contador sea menor o igual a 0, ejecuta.
+# En el ciclo: Mientras el contador sea menor o igual a 10, ejecuta.
 # -> Imprime la palabra que introdujo el usuario, dentro del ciclo el contador aumenta su valor en 1 y como el valor de contador vuelve a ser <= a 10, se vuelve a recorrer el ciclo. Se imprime 10 veces la palabra introducida por el usuario. 
 
 

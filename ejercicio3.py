@@ -20,7 +20,7 @@ for valor in range(1, numero, 2):
 """
 "end" es un parámetro opcional que se puede pasar a la función de impresión en Python. Este parámetro especifica el carácter o la cadena que se utilizará para finalizar la línea después de imprimir el contenido especificado.
 ----------------------------------------------
-El valor predeterminado de end es \n, lo que significa que después de la instrucción print imprimirá una nueva línea. Entonces, simplemente dijo end es lo que desea imprimir después de que se haya ejecutado la instrucción print.
+El valor predeterminado de end es \n, lo que significa que después de la instrucción print imprimirá una nueva línea. Entonces, simplemente le digo end que es lo que se desea imprimir después de que se haya ejecutado la instrucción print.
 
 Por ejemplo: - print ("hello",end=" +") imprimirá hello +
 
