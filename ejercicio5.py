@@ -22,6 +22,6 @@ while anos >= 1:
 
     print("El capital obtenido en tu inversion es de: ", resultado)
 
-    anos = anos * 0 
+    anos = 0
 
 #Explicacion: Obtuve los datos proporcionados por el cliente / Inicie el ciclo con la condicion dada por los anos que me iba a brindar el cliente / Dentro del ciclo cree las formulas que me iban a calcular las ganancias del clientes / Y para detener el ciclo, lleve el numero de anos a 0 para que la condicion del while deje de cumplirse y me devuelva el return. 
