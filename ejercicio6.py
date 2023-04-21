@@ -11,17 +11,6 @@ Escribir un programa que pida al usuario un número entero y muestre por pantall
 #Planteamiento:
 # Debo imprimir lineas con asteriscos. La cantidad de lineas que debo imprimir me las va a dar el usuario. La cantidad de asteriscos que va a tener cada linea coincide con la posicion de la linea. 
 
-"""
--> Mi primera etapa del ejercicio con el triangulo volteado:
-
-altura = int(input("Introduce un numero: "))
-altura = altura + 1
-
-while altura >= 1:
-    altura = altura - 1
-
-    print( altura * "*")
-"""
 
 altura = int(input("Introduce un numero: "))
 
