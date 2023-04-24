@@ -37,18 +37,18 @@ n = int(input("Numero entero: "))
 for i in range(1, n+1, 2):
     for j in range(i, 0, -2):
         print(j, end=" ")
+    print("")
 
 
 
 #PRIMER FOR: 
 #-> La secuencia del i con los argumentos(n+1), usando el numero 3:  0, 1, 2, 3
 #-> La secuencia del i con los argumentos(1, n+1, 2), usando el numero 3: 1, 3 => Empieza en 1, y da dos saltos hasta el 3.
-
+ 
 #SEGUNDO FOR:
-#-> Cuando aplico el segundo for, con argumento en range(i) y poniendo el 3 como numero. Me va a iterar solo los numeros: 1 y 3. Entonces el resultado en consola es: 2, 1, 0, 0. / 3-> 2,1,0 / 1->0.
-
+#-> Cuando aplico el segundo for, con argumento en range(i) y poniendo el 3 como numero. Me va a iterar solo los numeros: 1 y 3, porque en el for anterior esta la condicion que debe dar saltos de 2 en 2.. Entonces el resultado en consola es, para el 3-> 2 1 0 y para el 1-> 0
 #ARGUMENTOS DEL 2do RANGE (i, 0, -2):
-#-> Creo, el primer argumento representa el inicio. Entonces si yo uso el i, como primer argumento, quiere decir que comienza ahi, que comience a partir de ese valor en cada iteracion.
+#-> Creo, el primer argumento representa el inicio. Entonces si yo uso el i, como primer argumento, quiere decir que comienza ahi, que comience a partir de ese valor en cada iteracion. O sea que comience, a partir de lo que suelta el for anterior.
 #-> Creo, el segundo argumento en realidad es el limite. El limite en este caso es hasta donde "debe llegar la iteracion", en el primer for ese limite es el numero que pone el usuario, en este ejemplo es 0, pero no 0 sino el numero aterior a 0.
 # #-> Tercer argumento, saltos de -2. Para que vaya restando a cada valor. 
 #-> Debo ver los argumentos como: (inicio, limite,saltos).
@@ -56,16 +56,11 @@ for i in range(1, n+1, 2):
 #--> ENTONCES, SI EL NUMERO DEL USUARIO ES 5 Y SOLO IMPRIME J, SIN EL END=" ": Toma cada uno de los numeros y les va restando 2, y los va imprimiendo cada uno en una linea.
 
 #CON EL END=" " EN EL 2DO FOR:
-#-> Me imprime el mismo resultado de arriba pero, en horizontal.
+#-> Me imprime el mismo resultado de arriba pero, en horizontal. POR QUE?
+#-> Porque cada vez que se imprime una iteracion, me genera el salto de linea entre cada una de estas, cada numero que se va a iterar pertenece al primer for.
 
 #CON EL print("") DEL PRIMER FOR. 
 #-> https://www.youtube.com/watch?v=uhbpAFbwc50 min:6. NECESITO ENTENDER ESTO.
-
-
-
-
-
-
 
 
 #----------------------------------------------
