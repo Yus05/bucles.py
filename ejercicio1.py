@@ -16,7 +16,8 @@ while contador <= 10:
 # En el ciclo: Mientras el contador sea menor o igual a 10, ejecuta.
 # -> Imprime la palabra que introdujo el usuario, dentro del ciclo el contador aumenta su valor en 1 y como el valor de contador vuelve a ser <= a 10, se vuelve a recorrer el ciclo. Se imprime 10 veces la palabra introducida por el usuario. 
 
-
+#QUE ESTA PASANDO EN ESTE CICLO WHILE????
+#-> 
 
 
 
